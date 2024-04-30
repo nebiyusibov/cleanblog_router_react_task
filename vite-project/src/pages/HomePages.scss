@@ -1,0 +1,85 @@
+.home_section{
+    background-image: linear-gradient(to bottom, rgba(48, 48, 48, 0.52), rgba(49, 49, 49, 0.73)),
+    url("https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg   ");
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .blog_div{
+       text-align: center;
+       .blog_h1{
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           font-weight: 800;
+           font-size: clamp(3rem, 1.6667rem + 6.6667vw, 5.625rem);
+           color: white;
+       }
+       .blog_p{
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           font-size: 28px;
+           color: white;
+       }
+    }
+   }
+   .contact_section_2{
+       width: 100%;
+       min-height: 880px;
+       margin-top: 60px;
+       .blog_div_2{
+           width: 45%;
+           margin: auto;
+           h2{
+               font-size: clamp(1.875rem, 1.6528rem + 1.1111vw, 2.3125rem);
+               font-weight: 780;
+               color: black;
+           }
+           h3{
+               font-size: clamp(1.5625rem, 1.4038rem + 0.7937vw, 1.875rem);
+               font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               font-weight: 200;
+               color: black;
+           }
+           p{
+               margin-top: 20px;
+               margin-bottom: 20px;
+               font-size: 17px;
+               font-weight: 100;
+               color: black;
+               font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           }
+           div{
+               display: flex;
+               justify-content: end;
+               margin-top: 20px;
+               button{
+                   padding: 20px;
+                   padding-left: 30px;
+                   padding-right: 30px;
+                   font-weight: 900;
+                   letter-spacing: 0.1rem;
+                   background-color: #0085A1;
+                   color: aliceblue;
+                   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               }
+           }
+       }
+   }
+   @media screen and (max-width: 800px){
+       .contact_section_2{
+           .blog_div_2{
+               width: 80%;
+           }
+       }
+   }
+   @media screen and (max-width: 320px){
+       .home_section{
+           min-height: 400px;
+       }
+       .contact_section_2{
+           .blog_div_2{
+               width: 90%;
+           }
+       }
+   }
